@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1021px" height="1021px" viewBox="0 0 1021 1021" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>music_icon</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF00B4" offset="0%"></stop>
+            <stop stop-color="#FF0000" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="1020.58015" height="1020.58015" rx="126"></rect>
+        <filter x="-7.3%" y="-7.1%" width="114.7%" height="114.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M347,0 C155.359762,0 0,155.357051 0,347 C0,538.642949 155.359762,694 347,694 C538.640238,694 694,538.642949 694,347 C694,155.357051 538.640238,0 347,0 Z M466.931875,365.393711 L293.431875,473.831211 C289.921211,476.023004 285.929355,477.125 281.9375,477.125 C278.321109,477.125 274.699297,476.224969 271.421773,474.403219 C264.527859,470.580797 260.25,463.326328 260.25,455.4375 L260.25,238.5625 C260.25,230.673672 264.527859,223.419203 271.421773,219.596781 C278.315688,215.752672 286.745348,215.985813 293.431875,220.168789 L466.931875,328.606289 C473.270047,332.577813 477.125,339.52459 477.125,347 C477.125,354.47541 473.270047,361.423543 466.931875,365.393711 Z" id="path-5"></path>
+        <filter x="-3.6%" y="-3.3%" width="107.2%" height="107.2%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="music_icon">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            <g id="play-button-3" filter="url(#filter-4)" mask="url(#mask-3)" fill-rule="nonzero">
+                <g transform="translate(163.000000, 163.000000)" id="Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use fill-opacity="0.99" fill="#FFFFFF" xlink:href="#path-5"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
